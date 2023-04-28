@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="form" method="post">
+            <div class="text"><h1>Create Account</h1><br>get started with your free account</div>
+            <div class="twitter">
+                <img src="image/icons8-twitter.svg" alt="twitter">
+                Login via Twitter
+            </div>
+            <div class="facebook">
+                <img src="image/icons8-facebook.svg" alt="facebook">
+                Login via facebook
+            </div>
+            <p>OR</p>
+            <!-- username input -->
+            <div class="resign">
+            <div class="username">
+                <label for="username"></label>
+                <i class="fas fa-user"></i>
+                <input type="text" name="username" id="username" placeholder="Full Name">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-exclamation-circle success-icon"></i>
+            <div class="error"></div>
+            </div>
+            <!-- email input -->
+            <div class="email">
+            <label for="email"></label>
+                <i class="far fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email address">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-exclamation-circle success-icon"></i>
+            <div class="error"></div>
+            </div>
+            <!-- phone input -->
+            <div class="phoneUser">
+            <label for="Phone"></label>
+                <i class="fas fa-phone"></i>
+                <input type="phone" name="phone" id="phone" placeholder="Phone number">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-exclamation-circle success-icon"></i>
+            <div class="error"></div>
+            </div>
+            <div class="job">
+                <i class="fas fa-building"></i>
+                <input type="text" name="job-list" id="job-search" list="job-list" placeholder="select job type">
+                <datalist id="job-list">
+                <option value="Designer"></option>
+                <option value="Manager"></option>
+                <option value="Accounting"></option>
+                <!-- <select class="form-control"> -->
+                </datalist>
+                <!-- <option selected=""></option>
+                <option>Designer</option>
+                <option>Manager</option>
+                <option>Accounting</option>
+            </select> -->
+            </div>
+            <!-- password input -->
+            <div class="password">
+                <label for="password"></label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Create Password">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-exclamation-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div class="repeatPassword">
+                <label for="repeat-password"></label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="repeat-password" placeholder="Repeat Password">
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-exclamation-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+        </div>
+            <button type="submit">Create Account</button>
+            <p>Have an account?<a href="">Login</a></p>
+    </form>
+</div>
+<script src="resign.js"></script>
+</body>
+</html>
