@@ -6,6 +6,8 @@
 .container{
     display: flex;
     flex-direction: row;
+    background-color: beige;
+    
 }
 body{
     font-family: sans-serif;
@@ -90,3 +92,8 @@ button:hover{
 form div i{
     padding: 5px;
 }
+.facebook:hover,
+.twitter:hover{
+    opacity: 0.8;
+}
+

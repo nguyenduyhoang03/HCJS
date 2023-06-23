@@ -1,0 +1,18 @@
+.carousel{
+  background-color: hwb(8 50% 32% / 0.197);
+}
+.carousel-item{
+  width: 70%;
+  height: 250px;
+  padding-left: 100px;
+  margin-top: 10px;
+}
+.contact{
+  margin-top: 50px;
+  padding-top: 15px;
+  background-color: azure;
+}
+#fb{
+  padding-bottom: 20px;
+ background-color: cornsilk;
+}
