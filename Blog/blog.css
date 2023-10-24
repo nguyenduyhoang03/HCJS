@@ -12,7 +12,7 @@ a{
     text-decoration: none !important;
 }
 .banner-img{
-    background-image: url(/Blog/img/blog-page.webp);
+    background-image: url(./img/blog-page.webp);
     background-size: cover;
     background-position: center;
     text-align: center;
